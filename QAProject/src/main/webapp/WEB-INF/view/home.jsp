@@ -8,7 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<!-- demo -->
+<!-- demo 1-->
 <div class="content">
     <div class="wrap">
         <div class="content-grid">
