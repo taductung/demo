@@ -100,61 +100,16 @@
                     <ul>
                         <li class="current_page_item"><a href="index.html">Home</a></li>
                         <li class="ask_question"><a href="ask_question.html">Ask Question</a></li>
-                        <li><a href="cat_question.html">Questions</a>
-                            <ul>
-                                <li><a href="cat_question.html">Questions Category</a></li>
-                                <li><a href="single_question.html">Question Single</a></li>
-                                <li><a href="single_question_poll.html">Poll Question Single</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="cat_question.html">Class</a></li>
                         <li><a href="user_profile.html">User</a>
                             <ul>
-                                <li><a href="user_profile.html">User Profile</a></li>
-                                <li><a href="user_questions.html">User Questions</a></li>
-                                <li><a href="user_answers.html">User Answers</a></li>
+                                <li><a href="user_profile.html">Edit Profile</a></li>
+                                <li><a href="user_questions.html">User Follower</a></li>
+                                <li><a href="user_answers.html">User Class</a></li>
                                 <li><a href="user_favorite_questions.html">User Favorite Questions</a></li>
-                                <li><a href="user_points.html">User Points</a></li>
-                                <li><a href="edit_profile.html">Edit Profile</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog_1.html">Blog</a>
-                            <ul>
-                                <li><a href="blog_1.html">Blog 1</a>
-                                    <ul>
-                                        <li><a href="blog_1.html">Right sidebar</a></li>
-                                        <li><a href="blog_1_l_sidebar.html">Left sidebar</a></li>
-                                        <li><a href="blog_1_full_width.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog_2.html">Blog 2</a>
-                                    <ul>
-                                        <li><a href="blog_2.html">Right sidebar</a></li>
-                                        <li><a href="blog_2_l_sidebar.html">Left sidebar</a></li>
-                                        <li><a href="blog_2_full_width.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="single_post.html">Post Single</a>
-                                    <ul>
-                                        <li><a href="single_post.html">Right sidebar</a></li>
-                                        <li><a href="single_post_l_sidebar.html">Left sidebar</a></li>
-                                        <li><a href="single_post_full_width.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="right_sidebar.html">Pages</a>
-                            <ul>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="contact_us.html">Contact Us</a></li>
-                                <li><a href="ask_question.html">Ask Question</a></li>
-                                <li><a href="right_sidebar.html">Right Sidebar</a></li>
-                                <li><a href="left_sidebar.html">Left Sidebar</a></li>
-                                <li><a href="full_width.html">Full Width</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="shortcodes.html">Shortcodes</a></li>
-                        <li><a href="contact_us.html">Contact Us</a></li>
+                        <li><a href="contact_us.html">About Us</a></li>
                     </ul>
                 </nav>
             </section><!-- End container -->
@@ -926,6 +881,7 @@
         </div><!-- End page-content -->
         </div><!-- End main -->
         <aside class="col-md-3 sidebar">
+
             <div class="widget widget_login">
                 <h3 class="widget_title">Login</h3>
                 <div class="form-style form-style-2">
@@ -955,31 +911,31 @@
                 </div>
             </div>
 
-            <div class="widget widget_highest_points">
-                <h3 class="widget_title">Highest points</h3>
-                <ul>
-                    <li>
-                        <div class="author-img">
-                            <a href="#"><img width="60" height="60" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg" alt=""></a>
-                        </div>
-                        <h6><a href="#">admin</a></h6>
-                        <span class="comment">12 Points</span>
+            <div class="widget widget_stats">
+                <h3 class="widget_title">Stats</h3>
+                <div class="ul_list ul_list-icon-ok">
+                    <ul>
+                        <li><i class="icon-question-sign"></i>Notification ( <span>20</span> )</li>
+                        <li><i class="icon-comment"></i>Invitation ( <span>50</span> )</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget_title">Recent class</h3>
+                <ul class="related-posts">
+                    <li class="related-item">
+                        <h3><a href="#">This is my recent class 1</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="clear"></div><span>Feb 22, 2014</span>
                     </li>
-                    <li>
-                        <div class="author-img">
-                            <a href="#"><img width="60" height="60" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png" alt=""></a>
-                        </div>
-                        <h6><a href="#">vbegy</a></h6>
-                        <span class="comment">10 Points</span>
-                    </li>
-                    <li>
-                        <div class="author-img">
-                            <a href="#"><img width="60" height="60" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png" alt=""></a>
-                        </div>
-                        <h6><a href="#">ahmed</a></h6>
-                        <span class="comment">5 Points</span>
+                    <li class="related-item">
+                        <h3><a href="#">This is my recent class 2</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="clear"></div><span>Feb 22, 2014</span>
                     </li>
                 </ul>
+                <a href="#" style="padding-left: 160px">View all</a>
             </div>
 
             <div class="widget widget_tag_cloud">
@@ -994,22 +950,6 @@
                 <a href="#">vbegy</a>
             </div>
 
-            <div class="widget">
-                <h3 class="widget_title">Recent Questions</h3>
-                <ul class="related-posts">
-                    <li class="related-item">
-                        <h3><a href="#">This is my first Question</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="clear"></div><span>Feb 22, 2014</span>
-                    </li>
-                    <li class="related-item">
-                        <h3><a href="#">This Is My Second Poll Question</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="clear"></div><span>Feb 22, 2014</span>
-                    </li>
-                </ul>
-            </div>
-
         </aside><!-- End sidebar -->
         </div><!-- End row -->
         </section><!-- End container -->
@@ -1021,77 +961,11 @@
                         <div class="widget widget_contact">
                             <h3 class="widget_title">Where We Are ?</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravida odio, sit amet suscipit risus ultrices eu.</p>
-                            <ul>
-                                <li>
-                                    <span>Address :</span>
-                                    Ask Me Network, 33 Street, syada Zeinab, Cairo, Egypt.
-                                </li>
-                                <li>
-                                    <span>Support :</span>Support Telephone No : (+2)01111011110
-                                </li>
-                                <li>Support Email Account : info@example.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="widget">
-                            <h3 class="widget_title">Quick Links</h3>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="ask_question.html">Ask Question</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="cat_question.html">Questions</a></li>
-                                <li><a href="user_profile.html">Users</a></li>
-                                <li><a href="blog_1.html">Blog</a></li>
-                                <li><a href="right_sidebar.html">Pages</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
-                                <li><a href="contact_us.html">Contact Us</a></li>
-                                <li><a href="#">FAQs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="widget">
-                            <h3 class="widget_title">Popular Questions</h3>
-                            <ul class="related-posts">
-                                <li class="related-item">
-                                    <h3><a href="#">This is my first Question</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam.</p>
-                                    <div class="clear"></div><span>Feb 22, 2014</span>
-                                </li>
-                                <li class="related-item">
-                                    <h3><a href="#">This Is My Second Poll Question</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam.</p>
-                                    <div class="clear"></div><span>Feb 22, 2014</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="widget widget_twitter">
-                            <h3 class="widget_title">Latest Tweets</h3>
-                            <div class="tweet_1"></div>
                         </div>
                     </div>
                 </div><!-- End row -->
             </section><!-- End container -->
         </footer><!-- End footer -->
-        <footer id="footer-bottom">
-            <section class="container">
-                <div class="copyrights f_left">Copyright 2014 Ask me | <a href="#">By 2code</a></div>
-                <div class="social_icons f_right">
-                    <ul>
-                        <li class="twitter"><a original-title="Twitter" class="tooltip-n" href="#"><i class="social_icon-twitter font17"></i></a></li>
-                        <li class="facebook"><a original-title="Facebook" class="tooltip-n" href="#"><i class="social_icon-facebook font17"></i></a></li>
-                        <li class="gplus"><a original-title="Google plus" class="tooltip-n" href="#"><i class="social_icon-gplus font17"></i></a></li>
-                        <li class="youtube"><a original-title="Youtube" class="tooltip-n" href="#"><i class="social_icon-youtube font17"></i></a></li>
-                        <li class="skype"><a original-title="Skype" class="tooltip-n" href="skype:#?call"><i class="social_icon-skype font17"></i></a></li>
-                        <li class="flickr"><a original-title="Flickr" class="tooltip-n" href="#"><i class="social_icon-flickr font17"></i></a></li>
-                        <li class="rss"><a original-title="Rss" class="tooltip-n" href="#"><i class="social_icon-rss font17"></i></a></li>
-                    </ul>
-                </div><!-- End social_icons -->
-            </section><!-- End container -->
-        </footer><!-- End footer-bottom -->
         </div><!-- End wrap -->
         <!-- End wrap -->
         <div class="go-up"><i class="icon-chevron-up"></i></div>
