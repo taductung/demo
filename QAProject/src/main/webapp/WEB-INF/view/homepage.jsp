@@ -101,7 +101,7 @@
                         <li class="current_page_item"><a href="index.html">Home</a></li>
                         <li class="ask_question"><a href="ask_question.html">Ask Question</a></li>
                         <li><a href="cat_question.html">Class</a></li>
-                        <li><a href="user_profile.html">User</a>
+                        <li><a href="user_profile.html">Account</a>
                             <ul>
                                 <li><a href="user_profile.html">Edit Profile</a></li>
                                 <li><a href="user_questions.html">User Follower</a></li>
@@ -912,7 +912,7 @@
             </div>
 
             <div class="widget widget_stats">
-                <h3 class="widget_title">Stats</h3>
+                <h3 class="widget_title">Hi, [username]</h3>
                 <div class="ul_list ul_list-icon-ok">
                     <ul>
                         <li><i class="icon-question-sign"></i>Notification ( <span>20</span> )</li>
