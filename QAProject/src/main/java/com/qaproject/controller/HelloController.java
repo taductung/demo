@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HelloController {
 	@RequestMapping(value = "/",method = RequestMethod.GET)
      public String printWelcome(ModelMap model) {
-        //test commit
-        //test commit second time
         return "homepage";
     }
     @RequestMapping(value = "/home",method = RequestMethod.GET)
