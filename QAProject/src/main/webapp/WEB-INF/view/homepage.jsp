@@ -110,6 +110,14 @@
                             </ul>
                         </li>
                         <li><a href="contact_us.html">About Us</a></li>
+                        <li>
+                            <div class="header-search">
+                                <form>
+                                    <input type="text" value="Search here ..." onfocus="if(this.value=='Search here ...')this.value='';" onblur="if(this.value=='')this.value='Search here ...';">
+                                    <button type="submit" class="search-submit"></button>
+                                </form>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </section><!-- End container -->
