@@ -1,8 +1,9 @@
 <%--
-    Document   : homepage
-    Created on : May 17, 2015, 11:20:25 AM
-    Last edited: May 19, 2015, 10:53:25 PM
-    Author     : Minh
+  Created by IntelliJ IDEA.
+  User: Minh
+  Date: 5/17/2015
+  Time: 8:31 AM
+  To change this template use File | Settings | File Templates.
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -37,8 +38,6 @@
         <div class="loader"><div class="loader_html"></div></div>
 
         <div id="wrap">
-
-
 
         <div class="panel-pop" id="signup">
             <h2>Register Now<i class="icon-remove"></i></h2>
@@ -100,7 +99,7 @@
                     <ul>
                         <li class="current_page_item"><a href="index.html">Home</a></li>
                         <li class="ask_question"><a href="ask_question.html">Ask Question</a></li>
-                        <li><a href="cat_question.html">Class</a></li>
+                        <li><a href="/classroom">Class</a></li>
                         <li><a href="user_profile.html">Account</a>
                             <ul>
                                 <li><a href="user_profile.html">Edit Profile</a></li>
