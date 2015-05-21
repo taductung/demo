@@ -15,4 +15,8 @@ public class HelloController {
     public String homepage(ModelMap model) {
         return "home";
     }
+    @RequestMapping(value = "/classroom",method = RequestMethod.GET)
+    public String classroom(ModelMap model) {
+        return "classroom";
+    }
 }
