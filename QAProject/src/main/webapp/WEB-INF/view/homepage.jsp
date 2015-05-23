@@ -39,6 +39,7 @@
 
         <div id="wrap">
 
+
         <div class="panel-pop" id="signup">
             <h2>Register Now<i class="icon-remove"></i></h2>
             <div class="form-style form-style-3">
@@ -92,6 +93,7 @@
         </div><!-- End lost-password -->
 
 
+        <header id="header">
             <section class="container clearfix">
                 <div class="logo"><a href="/"><img alt="" src="/resource/assets/images/logo.png"></a></div>
                 <nav class="navigation">
