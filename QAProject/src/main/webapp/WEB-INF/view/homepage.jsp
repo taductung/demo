@@ -92,46 +92,52 @@
         </div><!-- End lost-password -->
 
 
-        <header id="header" class="index-no-box">
             <section class="container clearfix">
-                <div class="logo"><a href="index.html"><img alt="" src="/resource/assets/images/logo.png"></a></div>
+                <div class="logo"><a href="/"><img alt="" src="/resource/assets/images/logo.png"></a></div>
                 <nav class="navigation">
                     <ul>
                         <li class="current_page_item"><a href="index.html">Home</a></li>
-                        <li class="ask_question"><a href="ask_question.html">Ask Question</a></li>
-                        <li><a href="/classroom">Class</a></li>
-                        <li><a href="user_profile.html">Account</a>
-                            <ul>
-                                <li><a href="user_profile.html">Edit Profile</a></li>
-                                <li><a href="user_questions.html">User Follower</a></li>
-                                <li><a href="user_answers.html">User Class</a></li>
-                                <li><a href="user_favorite_questions.html">User Favorite Questions</a></li>
-                            </ul>
-                        </li>
+                        <li class="ask_question"><a href="ask_question.html">Dashboard</a></li>
+                        <li><a href="#">Your profile</a></li>
                         <li><a href="contact_us.html">About Us</a></li>
-                        <li>
-                            <div class="header-search">
-                                <form>
-                                    <input type="text" value="Search here ..." onfocus="if(this.value=='Search here ...')this.value='';" onblur="if(this.value=='')this.value='Search here ...';">
-                                    <button type="submit" class="search-submit"></button>
-                                </form>
-                            </div>
-                        </li>
+                        <li><a href="#"><i class="icon-globe" style="font-size: 22px;"></i><span style="color: #ff7361"> 15</span></a></li>
                     </ul>
                 </nav>
             </section><!-- End container -->
         </header><!-- End header -->
 
+        <div class="breadcrumbs">
+            <section class="container" style="height:70px">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Home</h3>
+                    </div>
+                </div><!-- End row -->
+            </section><!-- End container -->
+        </div><!-- End breadcrumbs -->
+
         <section class="container main-content">
+        <div class="clearfix"></div>
         <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="" style="padding-left: 15px">
+                    <input type="text" aria-required="true" value="Find article, question, class or teacher here..." onfocus="if(this.value=='Find article, question, class or teacher here...')this.value='';"
+                           onblur="if(this.value=='')this.value='Find article, question, class or teacher here...';" style="width: 90%; margin-top:5px; float: left">
+                </div>
+                <div class="">
+                    <a href="#" class="button small color" style="padding-bottom: 9px">Search</a>
+                </div>
+            </div>
 
         <div class="tabs-warp question-tab">
         <ul class="tabs">
-            <li class="tab"><a href="#" class="current">Recent Questions</a></li>
-            <li class="tab"><a href="#">Recent Article</a></li>
-            <li class="tab"><a href="#">Most Responses</a></li>
-            <li class="tab"><a href="#">No answers</a></li>
+            <li class="tab"><a href="#" class="current">Questions</a></li>
+            <li class="tab"><a href="#">Articles</a></li>
+            <li class="tab"><a href="#">Class</a></li>
+            <li class="tab"><a href="#">Teacher</a></li>
+
         </ul>
         <div class="tab-inner-warp">
             <div class="tab-inner">
@@ -139,8 +145,6 @@
                     <h2>
                         <a href="single_question.html">This is my first Question</a>
                     </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
                     <div class="question-author">
                         <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
                     </div>
@@ -149,43 +153,18 @@
                         <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
                         <div class="question-details">
                             <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
                         <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
+                        <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
+                        <span class="question-category"><a href="#"><i class="icon-user"></i>Teacher: Mr.Nguyen</a></span>
                         <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-poll">
-                    <h2>
-                        <a href="single_question_poll.html">This Is My Second Poll Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-signal"></i>Poll</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
                         <div class="clearfix"></div>
                     </div>
                 </article>
                 <article class="question question-type-normal">
                     <h2>
-                        <a href="single_question.html">This Is My Third Question</a>
+                        <a href="single_question.html">This is my 2nd Question</a>
                     </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
                     <div class="question-author">
                         <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
                     </div>
@@ -193,45 +172,19 @@
                         <div class="clearfix"></div>
                         <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
                         <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                            <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
                         <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
+                        <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
+                        <span class="question-category"><a href="#"><i class="icon-user"></i>Teacher: Mr.Nguyen</a></span>
                         <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
                         <div class="clearfix"></div>
                     </div>
                 </article>
                 <article class="question question-type-normal">
                     <h2>
-                        <a href="single_question.html">This Is My Fourth Question</a>
+                        <a href="single_question.html">This is my 3rd Question</a>
                     </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fifth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
                     <div class="question-author">
                         <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
                     </div>
@@ -239,82 +192,12 @@
                         <div class="clearfix"></div>
                         <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
                         <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                            <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
                         <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
+                        <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
+                        <span class="question-category"><a href="#"><i class="icon-user"></i>Teacher: Mr.Nguyen</a></span>
                         <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Sixth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My seventh Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Eighth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
                         <div class="clearfix"></div>
                     </div>
                 </article>
@@ -323,641 +206,120 @@
         </div>
         <div class="tab-inner-warp">
             <div class="tab-inner">
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This is my first Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                <article class="post clearfix">
+                    <div class="post-inner">
+                        <h2 class="post-title"><span class="post-type"><i class="icon-file-alt"></i></span><a href="single_post.html">Post Without Image.</a></h2>
+                        <div class="post-meta">
+                            <span class="meta-author"><i class="icon-user"></i><a href="#">Teacher: Mr.Thang</a></span>
+                            <span class="meta-date"><i class="icon-time"></i>September 30 , 2013</span>
+                            <span class="meta-comment"><i class="icon-comments-alt"></i><a href="#">15 comments</a></span>
+                            <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravida odio, sit amet suscipit risus ultrices eu. Fusce viverra neque at purus laoreet consequat. Vivamus vulputate posuere nisl quis consequat. Donec congue commodo mi, sed commodo velit fringilla ac. Fusce placerat venenatis mi.</p>
+                            <a href="single_post.html" class="post-read-more button color small">Continue reading</a>
+                        </div><!-- End post-content -->
+                    </div><!-- End post-inner -->
                 </article>
-                <article class="question question-type-poll">
-                    <h2>
-                        <a href="single_question_poll.html">This Is My Second Poll Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-signal"></i>Poll</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                <article class="post clearfix">
+                    <div class="post-inner">
+                        <h2 class="post-title"><span class="post-type"><i class="icon-file-alt"></i></span><a href="single_post.html">Post Without Image.</a></h2>
+                        <div class="post-meta">
+                            <span class="meta-author"><i class="icon-user"></i><a href="#">Teacher: Mr.Thang</a></span>
+                            <span class="meta-date"><i class="icon-time"></i>September 30 , 2013</span>
+                            <span class="meta-comment"><i class="icon-comments-alt"></i><a href="#">15 comments</a></span>
+                            <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravida odio, sit amet suscipit risus ultrices eu. Fusce viverra neque at purus laoreet consequat. Vivamus vulputate posuere nisl quis consequat. Donec congue commodo mi, sed commodo velit fringilla ac. Fusce placerat venenatis mi.</p>
+                            <a href="single_post.html" class="post-read-more button color small">Continue reading</a>
+                        </div><!-- End post-content -->
+                    </div><!-- End post-inner -->
                 </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Third Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                <article class="post clearfix">
+                    <div class="post-inner">
+                        <h2 class="post-title"><span class="post-type"><i class="icon-file-alt"></i></span><a href="single_post.html">Post Without Image.</a></h2>
+                        <div class="post-meta">
+                            <span class="meta-author"><i class="icon-user"></i><a href="#">Teacher: Mr.Thang</a></span>
+                            <span class="meta-date"><i class="icon-time"></i>September 30 , 2013</span>
+                            <span class="meta-comment"><i class="icon-comments-alt"></i><a href="#">15 comments</a></span>
+                            <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravida odio, sit amet suscipit risus ultrices eu. Fusce viverra neque at purus laoreet consequat. Vivamus vulputate posuere nisl quis consequat. Donec congue commodo mi, sed commodo velit fringilla ac. Fusce placerat venenatis mi.</p>
+                            <a href="single_post.html" class="post-read-more button color small">Continue reading</a>
+                        </div><!-- End post-content -->
+                    </div><!-- End post-inner -->
                 </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fourth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
+                <article class="post clearfix">
+                    <div class="post-inner">
+                        <h2 class="post-title"><span class="post-type"><i class="icon-file-alt"></i></span><a href="single_post.html">Post Without Image.</a></h2>
+                        <div class="post-meta">
+                            <span class="meta-author"><i class="icon-user"></i><a href="#">Teacher: Mr.Thang</a></span>
+                            <span class="meta-date"><i class="icon-time"></i>September 30 , 2013</span>
+                            <span class="meta-comment"><i class="icon-comments-alt"></i><a href="#">15 comments</a></span>
+                            <span class="question-category"><a href="#"><i class="icon-group"></i>Class: Advance Java</a></span>
                         </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
+                        <div class="post-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi adipiscing gravida odio, sit amet suscipit risus ultrices eu. Fusce viverra neque at purus laoreet consequat. Vivamus vulputate posuere nisl quis consequat. Donec congue commodo mi, sed commodo velit fringilla ac. Fusce placerat venenatis mi.</p>
+                            <a href="single_post.html" class="post-read-more button color small">Continue reading</a>
+                        </div><!-- End post-content -->
+                    </div><!-- End post-inner -->
                 </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fifth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Sixth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My seventh Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Eighth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <a href="#" class="load-questions"><i class="icon-refresh"></i>Load More Questions</a>
+                <a href="#" class="load-questions"><i class="icon-refresh"></i>Load More Articles</a>
             </div>
         </div>
         <div class="tab-inner-warp">
             <div class="tab-inner">
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This is my first Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
+                <div class="about-author clearfix">
+                    <div class="" style="float: left;padding-right: 20px;">
+                        <a href="#" original-title="admin" class=""><img alt="" src="http://steinhardt.nyu.edu/scmsAdmin/media/users/il30/icons_facultyresources/classroom-01.png"></a>
                     </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
+                    <a class="" href="#" style="float: right">Join class</a>
+                    <div class="author-bio">
+                        <h4><a href="#">Advance Java class</a></h4>
+                        This is introduction of Advance Java class: advance java advance java advance java advance java advance java
                     </div>
-                </article>
-                <article class="question question-type-poll">
-                    <h2>
-                        <a href="single_question_poll.html">This Is My Second Poll Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-signal"></i>Poll</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
+                </div>
+                <div class="about-author clearfix">
+                    <div class="" style="float: left;padding-right: 20px;">
+                        <a href="#" original-title="admin" class=""><img alt="" src="http://steinhardt.nyu.edu/scmsAdmin/media/users/il30/icons_facultyresources/classroom-01.png"></a>
                     </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
+                    <a class="" href="#" style="float: right">Join class</a>
+                    <div class="author-bio">
+                        <h4><a href="#">Advance Java class</a></h4>
+                        This is introduction of Advance Java class: advance java advance java advance java advance java advance java
                     </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Third Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fourth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fifth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Sixth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My seventh Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Eighth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <a href="#" class="load-questions"><i class="icon-refresh"></i>Load More Questions</a>
+                </div>
             </div>
         </div>
         <div class="tab-inner-warp">
             <div class="tab-inner">
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This is my first Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
+                <div class="about-author clearfix">
+                    <div class="author-image">
+                        <a href="#" original-title="admin" class="tooltip-n"><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
                     </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
+                    <a class="" href="#" style="float: right">Follow</a>
+                    <div class="author-bio">
+                        <h4><a href="#">Johnny Walker</a></h4>
+                        I'm teaching at FPT University. My professional are Java, C# and SQL
                     </div>
-                </article>
-                <article class="question question-type-poll">
-                    <h2>
-                        <a href="single_question_poll.html">This Is My Second Poll Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-signal"></i>Poll</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
+                </div>
+                <div class="about-author clearfix">
+                    <div class="author-image">
+                        <a href="#" original-title="admin" class="tooltip-n"><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
                     </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
+                    <a class="" href="#" style="float: right">Follow</a>
+                    <div class="author-bio">
+                        <h4><a href="#">Paul Smith</a></h4>
+                        I'm English teacher at Hoa Sen University. I can help you improve your speaking and writing for TOELF test.
                     </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Third Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fourth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Fifth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Sixth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My seventh Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/avatar.png"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <article class="question question-type-normal">
-                    <h2>
-                        <a href="single_question.html">This Is My Eighth Question</a>
-                    </h2>
-                    <a class="question-report" href="#">Report</a>
-                    <div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
-                    <div class="question-author">
-                        <a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="http://2code.info/demo/html/ask-me/images/demo/admin.jpeg"></a>
-                    </div>
-                    <div class="question-inner">
-                        <div class="clearfix"></div>
-                        <p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
-                        <div class="question-details">
-                            <span class="question-answered"><i class="icon-ok"></i>in progress</span>
-                            <span class="question-favorite"><i class="icon-star"></i>5</span>
-                        </div>
-                        <span class="question-category"><a href="#"><i class="icon-folder-close"></i>wordpress</a></span>
-                        <span class="question-date"><i class="icon-time"></i>4 mins ago</span>
-                        <span class="question-comment"><a href="#"><i class="icon-comment"></i>5 Answer</a></span>
-                        <span class="question-view"><i class="icon-user"></i>70 views</span>
-                        <div class="clearfix"></div>
-                    </div>
-                </article>
-                <a href="#" class="load-questions"><i class="icon-refresh"></i>Load More Questions</a>
+                </div>
             </div>
         </div>
         </div><!-- End page-content -->
         </div><!-- End main -->
-        <aside class="col-md-3 sidebar">
 
-            <div class="widget widget_login">
-                <h3 class="widget_title">Login</h3>
-                <div class="form-style form-style-2">
-                    <form>
-                        <div class="form-inputs clearfix">
-                            <p class="login-text">
-                                <input type="text" value="Username" onfocus="if (this.value == 'Username') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Username';}">
-                                <i class="icon-user"></i>
-                            </p>
-                            <p class="login-password">
-                                <input type="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}">
-                                <i class="icon-lock"></i>
-                                <a href="#">Forget</a>
-                            </p>
-                        </div>
-                        <p class="form-submit login-submit">
-                            <input type="submit" value="Log in" class="button color small login-submit submit">
-                        </p>
-                        <div class="rememberme">
-                            <label><input type="checkbox" checked="checked"> Remember Me</label>
-                        </div>
-                    </form>
-                    <ul class="login-links login-links-r">
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-
-            <div class="widget widget_stats">
-                <h3 class="widget_title">Hi, [username]</h3>
-                <div class="ul_list ul_list-icon-ok">
-                    <ul>
-                        <li><i class="icon-question-sign"></i>Notification ( <span>20</span> )</li>
-                        <li><i class="icon-comment"></i>Invitation ( <span>50</span> )</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="widget">
-                <h3 class="widget_title">Recent class</h3>
-                <ul class="related-posts">
-                    <li class="related-item">
-                        <h3><a href="#">This is my recent class 1</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="clear"></div><span>Feb 22, 2014</span>
-                    </li>
-                    <li class="related-item">
-                        <h3><a href="#">This is my recent class 2</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="clear"></div><span>Feb 22, 2014</span>
-                    </li>
-                </ul>
-                <a href="#" style="padding-left: 160px">View all</a>
-            </div>
-
-            <div class="widget widget_tag_cloud">
-                <h3 class="widget_title">Tags</h3>
-                <a href="#">projects</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Wordpress</a>
-                <a href="#">Html</a>
-                <a href="#">Css</a>
-                <a href="#">jQuery</a>
-                <a href="#">2code</a>
-                <a href="#">vbegy</a>
-            </div>
-
-        </aside><!-- End sidebar -->
         </div><!-- End row -->
         </section><!-- End container -->
 
