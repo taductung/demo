@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="QAProject" />
+        <module name="QA-Platform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="QAProject" target="1.6" />
+      <module name="QA-Platform" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
