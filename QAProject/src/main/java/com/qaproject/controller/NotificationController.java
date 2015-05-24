@@ -14,4 +14,12 @@ public class NotificationController {
     public String printWelcome(ModelMap model) {
         return "notification";
     }
+    @RequestMapping(value = "/createPost",method = RequestMethod.GET)
+    public String createPost(ModelMap model) {
+        return "createPost";
+    }
+    @RequestMapping(value = "/createClass",method = RequestMethod.GET)
+    public String createClass(ModelMap model) {
+        return "createClass";
+    }
 }
